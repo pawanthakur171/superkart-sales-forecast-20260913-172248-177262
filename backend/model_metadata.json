@@ -1,0 +1,38 @@
+{
+  "cache_key": "df483c976c40e0132ae0c799840a5d9ed28e0f663504f88230f63c1fa331de3c",
+  "workflow_version": "superkart-cache-v3",
+  "training_sha256": "b12ec41668e69d71d64ca96f2be78a011087f2a9cac6aba6e5cc920544b21ab2",
+  "target": "Product_Store_Sales_Total",
+  "features": [
+    "Product_Weight",
+    "Product_Sugar_Content",
+    "Product_Allocated_Area",
+    "Product_MRP",
+    "Store_Size",
+    "Store_Location_City_Type",
+    "Store_Type",
+    "Product_Id_char",
+    "Store_Age_Years",
+    "Product_Type_Category"
+  ],
+  "reference_year": 2025,
+  "model_name": "CatBoost",
+  "model_reused": true,
+  "final_metrics": {
+    "Model": "CatBoost",
+    "RMSE": 275.6445705893967,
+    "MAE": 105.21095587538508,
+    "R-squared": 0.9334105189197278,
+    "Adj. R-squared": 0.9330282601305184,
+    "MAPE": 0.038984991537006464
+  },
+  "artifact_path": "backend/superkart_model.joblib",
+  "created_at_utc": "2026-09-13T17:22:54.704292Z",
+  "serialized_model_test_metrics": {
+    "RMSE": 275.6445705893967,
+    "MAE": 105.21095587538508,
+    "R-squared": 0.9334105189197278,
+    "Adj. R-squared": 0.9330282601305184,
+    "MAPE": 0.038984991537006464
+  }
+}
